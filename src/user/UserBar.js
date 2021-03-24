@@ -7,13 +7,13 @@ export default function UserBar() {
     const user = '';
 
     if (user) {
-        return <Logout user={user}/>
+        return <Logout user={user}/>;
     } else {
         return (
             <Fragment>
                 <Login/>
                 <Register/>
             </Fragment>
-        )
+        );
     }
 }

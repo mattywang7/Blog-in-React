@@ -11,5 +11,5 @@ export default function Register() {
             <input type={"password"} name={"register-password-repeat"} id={"register-password-repeat"} />
             <input type={"submit"} value={"Register"} />
         </form>
-    )
+    );
 }

@@ -14,5 +14,5 @@ export default function Logout({user}) {
             Logged in as: <b>{user}</b>
             <input type={"submit"} value={"Logout"} />
         </form>
-    )
+    );
 }
