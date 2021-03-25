@@ -8,17 +8,15 @@ import Register from "./Register";
  * @returns {JSX.Element}
  * @constructor
  */
-export default function UserBar() {
-    const [user, setUser] = useState('');
-
+export default function UserBar({user, setUser}) {
     if (user) {
-        return <Logout user={user} setUser={setUser} />
+        return <Logout user={user} setUser={setUser} />;
     } else {
         return (
             <Fragment>
                 <Login setUser={setUser} />
                 <Register setUser={setUser} />
             </Fragment>
-        )
+        );
     }
 }
