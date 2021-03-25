@@ -2,6 +2,7 @@ import React from "react";
 
 /**
  * Accepting three props.
+ * Posts are also going to be global state, so we should define it in the App component.
  * @param title
  * @param content
  * @param author
